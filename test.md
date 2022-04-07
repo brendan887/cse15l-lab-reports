@@ -21,3 +21,5 @@ print("Hello world!")
 
 ![Image](https://external-preview.redd.it/ySMEa0DArP9zBGzQXVzQqgqIRpzv_BThixFwDZUWtN8.png?format=pjpg&auto=webp&s=e0dcd1b1ea5a99f5f217a1d95b7376c6d44fd64e)
 1. Hog Rider
+
+>Live formatting done in VSCode.
