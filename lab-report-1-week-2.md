@@ -36,6 +36,7 @@
 * Following this, I used the `ls` command in the directory on the server to confirm that the file was moved successfully.
 
 ![Image](screenshots/Part%205-3.png)
+
 *I also compiled and ran the program to test more commands.*
 
 
@@ -43,7 +44,7 @@
 * To avoid having to enter my password everytime I accessed the server, I can use an SSH key.
 * The command `ssh-keygen` generates a public and private key.
 
-![Image](screenshots/Part%206-1.png))
+![Image](screenshots/Part%206-1.png)
 
 * Following this, I had to create an `.ssh` directory on the server and copy the public key into this directory.
 
