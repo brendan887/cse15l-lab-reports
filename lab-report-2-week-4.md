@@ -16,10 +16,10 @@ The symptom shows that the heap has run out of available memory. This is likely 
 ### Code Change:
 ![Image](screenshots/lab2-2.png)
 
-[Failure-Inducing Test File: `test-file-4.md`](https://github.com/brendan887/markdown-parser/blob/main/test-file-4.md?plain=1)
-
 ### Symptom:
 ![Image](screenshots/bug2.png)
+
+[Failure-Inducing Test File: `test-file-4.md`](https://github.com/brendan887/markdown-parser/blob/main/test-file-4.md?plain=1)
 
 `test-file-4.md` has two images instead of links. The symptom that is shown above is that the images are read as links and are included in the links array. The bug is bug is that checking for exclamation marks before right brackets was not yet implemented, resulting in images incorrectly considered as links.
 
@@ -28,10 +28,9 @@ The symptom shows that the heap has run out of available memory. This is likely 
 ### Code Change:
 ![Image](screenshots/lab2-3.png)
 
-[Failure-Inducing Test File: `test-file-3.md`](https://github.com/brendan887/markdown-parser/blob/main/test-file-3.md?plain=1)
-
-
 ### Symptom:
 ![Image](screenshots/bug3.png)
+
+[Failure-Inducing Test File: `test-file-3.md`](https://github.com/brendan887/markdown-parser/blob/main/test-file-3.md?plain=1)
 
 This symptom arose after the parser was updated to identify images. In `test-file-3.md`, the first character is the left bracket of the first link. The bug is that the parser checks the character before the left bracket to see if it is an '!' to determine whether or not to include it in the links array, which would be out of bounds for the test file.
