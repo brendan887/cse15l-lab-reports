@@ -24,8 +24,24 @@ Public Key on Github:
 Public and Private Keys in `ieng6` Account:
 ![Image](screenshots/lab3-5.png)
 
+To test this key, a repository was cloned and the file `test-file.md` was created.
+![Image](screenshots/lab3-6.png)
 
+This file was also committed and pushed to the repository.
+![Image](screenshots/lab3-7.png)
 
 
 ## 3. Copy whole directories with `scp -r`
+Typically, the `scp` command only allows the user to copy individuals files. To copy an entire directory, `scp -r` can be used.
 
+This command was used to copy the `markdown-parser` directory to the remote `ieng6` account.
+![Image](screenshots/lab3-8.png)
+
+The tests that were written for `MarkdownParse.java` can also be run. We can take advantage of the `Makefile` we created to compile and run the tests.
+![Image](screenshots/lab3-9.png)
+
+This entire process can be simplified into one command on the client desktop.
+![Image](screenshots/lab3-9.png)
+
+This command copies the directory, accesses the remote desktop, runs the tests, and exits.
+![Image](screenshots/lab3-10.png)
