@@ -41,7 +41,7 @@ The tests that were written for `MarkdownParse.java` can also be run. We can tak
 ![Image](screenshots/lab3-9.png)
 
 This entire process can be simplified into one command on the client desktop.
-![Image](screenshots/lab3-9.png)
+![Image](screenshots/lab3-10.png)
 
 This command copies the directory, accesses the remote desktop, runs the tests, and exits.
-![Image](screenshots/lab3-10.png)
+![Image](screenshots/lab3-9.png)
