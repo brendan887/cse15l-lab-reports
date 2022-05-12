@@ -29,6 +29,7 @@ To test this key, a repository was cloned and the file `test-file.md` was create
 
 This file was also committed and pushed to the repository.
 ![Image](screenshots/lab3-7.png)
+*Commit can be found [here](https://github.com/brendan887/cse15l-lab-reports/commit/787af0b72c36631f1b2374ed993f9f0166095778).*
 
 
 ## 3. Copy whole directories with `scp -r`
