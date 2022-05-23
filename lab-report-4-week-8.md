@@ -8,7 +8,7 @@ Repositories for this lab report:
 
 *The versions of Markdown Parser in these repositories can only read links. As
 such, only the accuracy of getting links will be assessed.*
-<br></br>
+
 ## Snippet 1
 Desired Output:
 
@@ -35,7 +35,6 @@ Reviewed Repository: Test Failed
 
 ![Image](screenshots/lab4-10.png)
 
-<br></br>
 ## Snippet 2
 Desired Output:
 
@@ -62,7 +61,6 @@ Reviewed Repository: Test Failed
 
 ![Image](screenshots/lab4-11.png)
 
-<br></br>
 ## Snippet 3
 Desired Output:
 
